@@ -51,9 +51,10 @@ El análisis adicional mediante las visualizaciones de la distribución de senti
 El proyecto incluye los siguientes archivos:
 
 - **`sentiment_analysis.py`**: El archivo principal del proyecto. Contiene el código para limpiar los datos, construir y entrenar el modelo, evaluar el rendimiento y realizar predicciones sobre nuevos tweets.
-- **`sentiment_dataset.csv`**: El conjunto de datos de tweets utilizado para entrenar y evaluar el modelo. Este archivo contiene tweets y sus respectivas etiquetas de sentimiento.
 - **`sentiment_analysis.ipynb`**: Un archivo Jupyter Notebook que proporciona una implementación más interactiva del análisis de sentimientos. Este notebook incluye la visualización de métricas, el análisis de resultados, y la predicción de sentimientos en nuevos tweets. Es útil para exploración interactiva y análisis más detallados del proceso.
 - **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto en un entorno virtual.
+
+Por motivos de tamaño, no pude incluir el dataset, pero se encuentra en esta liga de kaggle: https://www.kaggle.com/datasets/kazanova/sentiment140
 
 ## Requisitos
 
