@@ -78,7 +78,7 @@ Se recomienda crear un entorno virtual para gestionar las dependencias del proye
     ```bash
    .\venv\Scripts\activate
 
-- En MacOs
+- En MacOS/Linux
     ```bash
    source venv/bin/activate
     
