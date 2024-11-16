@@ -80,7 +80,7 @@ Se recomienda crear un entorno virtual para gestionar las dependencias del proye
    ```
 2. **Crear el entorno virtual**:
     ```bash
-   virtualenv venv
+    python3 -m venv myenv
    ```
 3. **Activar el entorno virtual**:
 - En Windows:
