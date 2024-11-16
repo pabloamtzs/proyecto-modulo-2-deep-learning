@@ -68,11 +68,11 @@ Se recomienda crear un entorno virtual para gestionar las dependencias del proye
 1. **Instalar `virtualenv` (si no lo tienes instalado)**:
    ```bash
    pip install virtualenv
-      
+   ```
 2. **Crear el entorno virtual**:
     ```bash
    virtualenv venv
-
+   ```
 3. **Activar el entorno virtual**:
 - En Windows:
     ```bash
@@ -85,7 +85,7 @@ Se recomienda crear un entorno virtual para gestionar las dependencias del proye
 4. **Instalar las dependencias**  : Una vez dentro del entorno virtual, instala las dependencias del proyecto usando el archivo `requirements.txt`:
     ```bash
    pip install -r requirements.txt
-
+   ```
 
 ### 2. Ejecutar el Proyecto
 
@@ -98,7 +98,7 @@ Una vez configurado el entorno virtual y las dependencias, puedes entrenar y eva
 - **Generar las visualizaciones y analizar los resultados**:
   ```bash
   python train_model.py
-
+   ```
 
 
 
