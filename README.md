@@ -39,13 +39,21 @@ Además, se realizaron predicciones en tweets no vistos durante el entrenamiento
 Se incluyeron varias visualizaciones adicionales para interpretar los resultados:
 
 - **Distribución de Sentimientos Predichos**: Un gráfico de barras que muestra la distribución de tweets clasificados como positivos o negativos.
-- **Nubes de Palabras**: Se generaron nubes de palabras para los tweets positivos y negativos, lo que permitió observar las palabras más frecuentes en cada categoría de sentimiento.
 
 ## Conclusiones
 
 El modelo entrenado logró una **exactitud de 0.8815**, lo que indica un buen desempeño en la clasificación de sentimientos. A lo largo del proceso, se realizaron varias modificaciones en la arquitectura del modelo y en los hiperparámetros, lo que mejoró su rendimiento. Las técnicas de regularización, como el **Dropout**, ayudaron a evitar el sobreajuste y a mejorar la generalización del modelo.
 
 El análisis adicional mediante las visualizaciones de la distribución de sentimientos y las nubes de palabras proporcionaron información valiosa sobre cómo el modelo está clasificando los tweets y qué palabras son más representativas de cada sentimiento.
+
+## Estructura del Proyecto
+
+El proyecto incluye los siguientes archivos:
+
+- **`sentiment_analysis.py`**: El archivo principal del proyecto. Contiene el código para limpiar los datos, construir y entrenar el modelo, evaluar el rendimiento y realizar predicciones sobre nuevos tweets.
+- **`sentiment_dataset.csv`**: El conjunto de datos de tweets utilizado para entrenar y evaluar el modelo. Este archivo contiene tweets y sus respectivas etiquetas de sentimiento.
+- **`sentiment_analysis.ipynb`**: Un archivo Jupyter Notebook que proporciona una implementación más interactiva del análisis de sentimientos. Este notebook incluye la visualización de métricas, el análisis de resultados, y la predicción de sentimientos en nuevos tweets. Es útil para exploración interactiva y análisis más detallados del proceso.
+- **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto en un entorno virtual.
 
 ## Requisitos
 
