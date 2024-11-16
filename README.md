@@ -70,6 +70,8 @@ Por motivos de tamaño, no pude incluir el dataset, pero se encuentra en esta li
 
 ## Instrucciones de Instalación
 
+[De momento el archivo .py está roto; descargar unicamente el archivo .ipynb y usar ese mismo]
+
 ### 1. Crear un Entorno Virtual
 
 Se recomienda crear un entorno virtual para gestionar las dependencias del proyecto. A continuación se detallan los pasos:
